@@ -4,6 +4,7 @@ import ContadorConCustomHook from './components/contadorConCustomHook/ContadorCo
 import { SimpleForm } from './components/simpleForm/SimpleForm';
 import { ContenedorMensaje } from './components/coordenadas/ContenedorMensaje';
 import { SimpleFormConCustomHook } from './components/simpleFormConCustomHook/SimpleFormConCustomHook';
+import { UsandoVariosHooks } from './components/usandoVariosHooks/UsandoVariosHooks';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <h3>useEffect: addEventListener y removeEventListener</h3>
       {/* <Mensaje /> */}
       <ContenedorMensaje />
+      <hr />
+      <UsandoVariosHooks />
     </div>
   );
 }

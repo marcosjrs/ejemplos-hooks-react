@@ -4,11 +4,11 @@ export const useContador = (valorInicial) => {
 
   const [state, setState] = useState(valorInicial);
 
-  const incrementar = ( inc = 1 ) => {
-     setState(s => s + inc);
+  const incrementar = ( ) => {
+     setState(s => s + 1);
   };
-  const decrementar = ( dec = 1 ) => {
-     setState(s => s - dec);
+  const decrementar = ( ) => {
+     setState(s => s - 1);
   };
   const resetear = ( ) => {
      setState(valorInicial);
