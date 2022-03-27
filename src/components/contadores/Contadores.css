@@ -1,0 +1,14 @@
+
+.Contador ul{
+  list-style: none;
+  padding: 0;
+}
+
+.Contador li{
+  margin: 0;
+}
+
+.Contador button{
+  display: block;
+  margin-top: 5px;
+}

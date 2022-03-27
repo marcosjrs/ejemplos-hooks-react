@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Contadores from './components/contadores/Contadores';
+import ContadorConCustomHook from './components/contadorConCustomHook/ContadorConCustomHook';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Contadores</h2>
+      <Contadores />
+      <h2>Varios ContadorConCustomHook</h2>
+      <ContadorConCustomHook valorInicial={1} />
+      <ContadorConCustomHook valorInicial={2} />
+      <ContadorConCustomHook valorInicial={3} />
     </div>
   );
 }
