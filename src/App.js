@@ -5,6 +5,8 @@ import { SimpleForm } from './components/simpleForm/SimpleForm';
 import { ContenedorMensaje } from './components/coordenadas/ContenedorMensaje';
 import { SimpleFormConCustomHook } from './components/simpleFormConCustomHook/SimpleFormConCustomHook';
 import { UsandoVariosHooks } from './components/usandoVariosHooks/UsandoVariosHooks';
+import { UsandoUseMemo } from './components/usandoUseMemo/UsandoUseMemo';
+import { ResultadoYContenedorDeBotonesIncrementadores } from './components/usoDeUseCallback/ResultadoYContenedorDeBotonesIncrementadores';
 
 function App() {
   return (
@@ -26,6 +28,10 @@ function App() {
       <ContenedorMensaje />
       <hr />
       <UsandoVariosHooks />
+      <hr />
+      <UsandoUseMemo />
+      <hr />
+      <ResultadoYContenedorDeBotonesIncrementadores />
     </div>
   );
 }
