@@ -21,5 +21,9 @@ export const useUserForm = (datosIniciales) => {
     setFormulario({...formulario, [e.target.name]: e.target.value })
   };
   
-  return {formulario, handleInputChange};
+  const resetForm = () => {
+    setFormulario(datosIniciales);
+  }
+  
+  return [formulario, handleInputChange, resetForm];
 }

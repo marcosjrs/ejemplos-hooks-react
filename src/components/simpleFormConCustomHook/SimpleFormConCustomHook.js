@@ -3,7 +3,7 @@ import { useUserForm } from '../../hooks/useUserForm';
 
 export const SimpleFormConCustomHook = () => {
 
-  const {formulario, handleInputChange} = useUserForm({nombre:'',email:'',pass:''});
+  const [formulario, handleInputChange] = useUserForm({nombre:'',email:'',pass:''});
   const {nombre, email, pass} = formulario;
 
   const handleSubmit = (e) => {
